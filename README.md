@@ -8,7 +8,7 @@ $ open https://cmake.org/
 
 ## Tasks
 
-- [ ] 1. Создать публичный репозиторий с названием **lab4** на сервисе **GitHub**
+- [ ] 1. Создать публичный репозиторий с названием **lab04** на сервисе **GitHub**
 - [ ] 2. Выполнить инструкцию учебного материала
 - [ ] 3. Ознакомиться со ссылками учебного материала
 
@@ -19,10 +19,10 @@ $ export GITHUB_USERNAME=<имя_пользователя>
 ```
 
 ```bash
-$ git clone https://github.com/${GITHUB_USERNAME}/lab3 lab4
-$ cd lab4
+$ git clone https://github.com/${GITHUB_USERNAME}/lab03 lab04
+$ cd lab04
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab4
+$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab04
 ```
 
 ```bash
@@ -113,7 +113,7 @@ hello
 ```
 
 ```bash
-$ git clone https://github.com/tp-labs/lab4 tmp
+$ git clone https://github.com/tp-labs/lab04 tmp
 $ mv -f tmp/CMakeLists.txt .
 $ rm -rf tmp
 ```
@@ -129,6 +129,18 @@ $ tree _install
 $ git add CMakeLists.txt
 $ git commit -m"added CMakeLists.txt"
 $ git push origin master
+```
+## Report
+
+```bash
+$ cd ~/workspace/labs/
+$ export LAB_NUMBER=04
+$ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
+$ mkdir reports/lab${LAB_NUMBER}
+$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
+$ cd reports/lab${LAB_NUMBER}
+$ edit REPORT.md
+$ gistup -m"lab${LAB_NUMBER}"
 ```
 
 ## Links
