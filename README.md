@@ -135,3 +135,8 @@ $ git push origin master
 
 - [Autotools](http://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html)
 - [CMake](https://cgold.readthedocs.io/en/latest/index.html)
+
+- 
+```
+Copyright (c) 2017 Vyacheslav Vershinin
+```
